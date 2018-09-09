@@ -30,6 +30,10 @@ print('Intercept: \n', linear.intercept_)
 #Predict Output
 predicted= linear.predict(x_test)
 
+also:
+https://medium.com/analytics-vidhya/linear-regression-in-python-from-scratch-24db98184276
+
+
 2) Logistic Regression
 
 #Import Library
@@ -45,6 +49,13 @@ print('Coefficient: \n', model.coef_)
 print('Intercept: \n', model.intercept_)
 #Predict Output
 predicted= model.predict(x_test)
+
+also for logistic regression:
+https://medium.com/analytics-vidhya/python-implementation-of-andrew-ngs-machine-learning-course-part-2-1-1a666f049ad6 
+
+https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python
+
+https://medium.com/analytics-vidhya/python-implementation-of-andrew-ngs-machine-learning-course-part-2-2-dceff1a12a12
 
 3)  Decision Tree
 
@@ -97,6 +108,10 @@ model.fit(X, y)
 #Predict Output
 predicted= model.predict(x_test)
 
+also kNN:
+https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn
+
+
 7) k Means - unsupervised
 
 #Import Library
@@ -120,6 +135,10 @@ model= RandomForestClassifier()
 model.fit(X, y)
 #Predict Output
 predicted= model.predict(x_test)
+
+also:
+https://medium.com/analytics-vidhya/random-forest-a-model-designed-to-provide-structure-in-chaos-e267d559ca04
+
 
 9) dimension reduction - pca
 
@@ -230,3 +249,38 @@ submission = pd.DataFrame()
 submission['Item_Identifier'] = test['Item_Identifier']
 submission['Outlet_Identifier'] = test['Outlet_Identifier']
 submission['Item_Outlet_Sales'] = model.predict(test)
+
+-------------------------------
+python excel:
+https://www.datacamp.com/community/tutorials/python-excel-tutorial
+
+web scraping - beautiful soup
+https://medium.com/analytics-vidhya/web-scraping-wiki-tables-using-beautifulsoup-and-python-6b9ea26d8722
+
+https://www.datacamp.com/community/tutorials/web-scraping-using-python
+
+time series:
+https://medium.com/analytics-vidhya/build-high-performance-time-series-models-using-auto-arima-in-python-and-r-f1d996583bf6
+
+neural network:
+https://medium.com/analytics-vidhya/build-your-first-neural-network-model-on-a-structured-dataset-using-keras-d9e7de5c6724
+
+ensemble learning:
+https://www.datacamp.com/community/tutorials/ensemble-learning-python
+
+deep learning:
+https://www.datacamp.com/courses/deep-learning-in-python?utm_source=fb_paid&utm_medium=cpc&utm_campaign=fb_ppa
+
+genetic algorithm:
+https://medium.com/analytics-vidhya/understanding-genetic-algorithms-in-the-artificial-intelligence-spectrum-7021b7cc25e7
+
+LSTM stocks:
+https://www.datacamp.com/community/tutorials/lstm-python-stock-market?%3Futm_source=fb_paid&utm_medium=cpc&utm_campaign=fb_ppa
+
+data structures:
+https://www.datacamp.com/community/tutorials/data-structures-python
+
+data visualization:
+https://www.datacamp.com/courses/introduction-to-data-visualization-with-python?utm_source=fb_paid&utm_medium=cpc&utm_campaign=dc_registered_visitors
+
+

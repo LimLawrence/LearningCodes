@@ -6,6 +6,18 @@ https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
 pandas:
 https://www.datacamp.com/courses/analyzing-police-activity-with-pandas
 
+https://www.datacamp.com/community/tutorials/joining-dataframes-pandas
+
+https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
+
+bball nba games:
+ttps://www.analyticsvidhya.com/blog/2019/05/scraping-nba-data-analyze-1000-basketball-games-python/?utm_source=facebook.com&utm_medium=social
+
+
+reading various formats:
+https://www.analyticsvidhya.com/blog/2017/03/read-commonly-used-formats-using-python/?utm_source=facebook.com&utm_medium=social
+
+
 scikit cheat sheet:
 https://www.facebook.com/726282547396228/photos/a.757399000951249/2232589283432206/?type=3
 
@@ -33,6 +45,9 @@ predicted= linear.predict(x_test)
 also:
 https://medium.com/analytics-vidhya/linear-regression-in-python-from-scratch-24db98184276
 
+https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net
+
+https://www.datacamp.com/courses/introduction-to-linear-modeling-in-python
 
 2) Logistic Regression
 
@@ -57,6 +72,10 @@ https://www.datacamp.com/community/tutorials/understanding-logistic-regression-p
 
 https://medium.com/analytics-vidhya/python-implementation-of-andrew-ngs-machine-learning-course-part-2-2-dceff1a12a12
 
+https://medium.com/analytics-vidhya/a-guide-to-using-logistic-regression-for-digit-recognition-with-python-codes-86aae6da10fe
+
+https://www.analyticsvidhya.com/blog/2017/08/skilltest-logistic-regression/?utm_source=facebook.com
+
 3)  Decision Tree
 
 #Import Library
@@ -72,6 +91,8 @@ model.score(X, y)
 #Predict Output
 predicted= model.predict(x_test)
 
+https://www.datacamp.com/courses/machine-learning-with-tree-based-models-in-python
+
 4) Support Vector Machine
 
 #Import Library
@@ -85,6 +106,10 @@ model.score(X, y)
 #Predict Output
 predicted= model.predict(x_test)
 
+https://www.analyticsvidhya.com/blog/2017/10/svm-skilltest/?utm_source=facebook.com
+
+https://www.datacamp.com/community/tutorials/machine-learning-python
+
 5) Naive Bayes - simple & high performing
 
 #Import Library
@@ -95,6 +120,9 @@ from sklearn.naive_bayes import GaussianNB
 model.fit(X, y)
 #Predict Output
 predicted= model.predict(x_test)
+
+https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/?utm_source=facebook.com&utm_medium=social
+
 
 6) kNN - mostly used for classification but can be used for regression
 
@@ -110,6 +138,7 @@ predicted= model.predict(x_test)
 
 also kNN:
 https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn
+https://www.analyticsvidhya.com/blog/2018/08/k-nearest-neighbor-introduction-regression-python/?utm_source=facebook.com
 
 
 7) k Means - unsupervised
@@ -139,6 +168,8 @@ predicted= model.predict(x_test)
 also:
 https://medium.com/analytics-vidhya/random-forest-a-model-designed-to-provide-structure-in-chaos-e267d559ca04
 
+https://www.analyticsvidhya.com/blog/2018/10/interpret-random-forest-model-machine-learning-programmers/?utm_source=facebook.com
+
 
 9) dimension reduction - pca
 
@@ -154,9 +185,12 @@ train_reduced = pca.fit_transform(train)
 test_reduced = pca.transform(test)
 #For more detail on this, please refer  this link.
 
+https://www.datacamp.com/courses/dimensionality-reduction-in-python
+
 10) gradient boosting
 GBM is a boosting algorithm used when we deal with plenty of data to make a prediction with high prediction power. 
-Boosting is actually an ensemble of learning algorithms which combines the prediction of several base estimators in order to improve robustness over a single estimator. It combines multiple weak or average predictors to a build strong predictor. These boosting algorithms always work well in data science competitions like Kaggle, AV Hackathon, CrowdAnalytix.
+Boosting is actually an ensemble of learning algorithms which combines the prediction of several base estimators in order to improve robustness over a single estimator. It combines multiple weak or average predictors to a build strong predictor. 
+These boosting algorithms always work well in data science competitions like Kaggle, AV Hackathon, CrowdAnalytix.
 
 #Import Library
 from sklearn.ensemble import GradientBoostingClassifier
@@ -250,20 +284,71 @@ submission['Item_Identifier'] = test['Item_Identifier']
 submission['Outlet_Identifier'] = test['Outlet_Identifier']
 submission['Item_Outlet_Sales'] = model.predict(test)
 
+clustering:
+https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/?utm_source=facebook.com
+
 -------------------------------
 python excel:
 https://www.datacamp.com/community/tutorials/python-excel-tutorial
 
+datetime:
+https://www.datacamp.com/community/tutorials/converting-strings-datetime-objects
+
+customer segmentation:
+https://www.datacamp.com/community/tutorials/introduction-customer-segmentation-python
+
+feature selection:
+https://www.datacamp.com/community/tutorials/feature-selection-python
+
+featuretools:
+https://www.analyticsvidhya.com/blog/2018/08/guide-automated-feature-engineering-featuretools-python/?utm_source=facebook.com
+
+
+predicting churn:
+https://www.datacamp.com/courses/hr-analytics-in-python-predicting-employee-churn
+
+latent semantic modeling:
+https://www.analyticsvidhya.com/blog/2018/10/stepwise-guide-topic-modeling-latent-semantic-analysis/?utm_source=facebook.com
+
 web scraping - beautiful soup
 https://medium.com/analytics-vidhya/web-scraping-wiki-tables-using-beautifulsoup-and-python-6b9ea26d8722
 
+https://www.analyticsvidhya.com/blog/2017/07/web-scraping-in-python-using-scrapy/?utm_source=facebook.com&utm_medium=social
+
 https://www.datacamp.com/community/tutorials/web-scraping-using-python
+
+https://www.datacamp.com/community/tutorials/tutorial-python-beautifulsoup-datacamp-tutorials
 
 time series:
 https://medium.com/analytics-vidhya/build-high-performance-time-series-models-using-auto-arima-in-python-and-r-f1d996583bf6
 
+https://www.analyticsvidhya.com/blog/2018/02/time-series-forecasting-methods/?utm_source=facebook.com
+preprocessing for time series:
+https://medium.com/analytics-vidhya/preprocessing-for-time-series-forecasting-3a331dbfb9c2
+
+
+ARIMA - depends on previous data point - bootstrapping methods don't preserve order
+https://www.datacamp.com/courses/visualizing-time-series-data-in-python/
+
+https://www.datacamp.com/courses/introduction-to-time-series-analysis-in-python
+
+https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/?utm_source=facebook.com
+
+https://medium.com/analytics-vidhya/encoding-time-series-as-images-b043becbdbf3
+
+https://www.datacamp.com/community/tutorials/stocks-significance-testing-p-hacking
+
+https://github.com/mythicalprogrammer/timeseries_meetup
+
+recommendation engine:
+https://www.analyticsvidhya.com/blog/2016/06/quick-guide-build-recommendation-engine-python/?utm_source=facebook.com
+
 neural network:
 https://medium.com/analytics-vidhya/build-your-first-neural-network-model-on-a-structured-dataset-using-keras-d9e7de5c6724
+
+https://www.datacamp.com/community/blog/keras-cheat-sheet
+
+https://medium.com/analytics-vidhya/neural-networks-for-digits-recognition-e11d9dff00d5
 
 ensemble learning:
 https://www.datacamp.com/community/tutorials/ensemble-learning-python
@@ -271,6 +356,10 @@ https://www.datacamp.com/community/tutorials/ensemble-learning-python
 deep learning:
 https://www.datacamp.com/courses/deep-learning-in-python?utm_source=fb_paid&utm_medium=cpc&utm_campaign=fb_ppa
 
+https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning/?utm_source=facebook.com&utm_medium=social
+multi armed bandit problem:
+https://www.analyticsvidhya.com/blog/2018/09/reinforcement-multi-armed-bandit-scratch-python/?utm_source=facebook.com
+da
 genetic algorithm:
 https://medium.com/analytics-vidhya/understanding-genetic-algorithms-in-the-artificial-intelligence-spectrum-7021b7cc25e7
 
@@ -282,5 +371,112 @@ https://www.datacamp.com/community/tutorials/data-structures-python
 
 data visualization:
 https://www.datacamp.com/courses/introduction-to-data-visualization-with-python?utm_source=fb_paid&utm_medium=cpc&utm_campaign=dc_registered_visitors
+https://www.analyticsvidhya.com/blog/2017/01/beginners-guide-to-create-beautiful-interactive-data-visualizations-using-plotly-in-r-and-python/?utm_source=facebook.com&utm_medium=social
 
+graph theory:
+https://www.analyticsvidhya.com/blog/2018/09/introduction-graph-theory-applications-python/?utm_source=facebook.com
+
+https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/?utm_source=facebook.com&utm_medium=social
+
+network X:
+https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
+
+jupyter notebooks:
+https://www.analyticsvidhya.com/blog/2018/09/jupytext-lets-you-use-jupyter-notebooks-as-julia-python-and-r-scripts-or-markdown-documents/?utm_source=facebook.com
+
+pca to auto encoder:
+https://medium.com/analytics-vidhya/journey-from-principle-component-analysis-to-autoencoders-e60d066f191a
+
+bias:
+https://www.analyticsvidhya.com/blog/2018/09/ibm-open-sources-comprehensive-python-toolkit-for-detecting-fighting-bias-30-metrics-9-algorithms/?utm_source=facebook.com
+
+databases:
+https://medium.com/analytics-vidhya/programming-with-databases-in-python-using-sqlite-4cecbef51ab9
+
+tensors w/ pytorch:
+https://www.datacamp.com/community/tutorials/investigating-tensors-pytorch
+
+tpot:
+https://www.datacamp.com/community/tutorials/tpot-machine-learning-python
+
+pickle:
+https://www.datacamp.com/community/tutorials/pickle-python-tutorial
+
+active learning:
+https://www.datacamp.com/community/tutorials/active-learning
+
+search engine marketing:
+https://www.datacamp.com/community/tutorials/sem-data-science
+
+finance example:
+https://www.datacamp.com/courses/importing-managing-financial-data-in-python?utm_source=fb_paid&utm_medium=cpc&utm_campaign=fb_ppa 
+
+https://www.datacamp.com/courses/intro-to-python-for-finance
+
+probability distributions:
+https://www.datacamp.com/community/tutorials/probability-distributions-python
+https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/?utm_source=facebook.com&utm_medium=social
+
+
+geospatial:
+https://www.datacamp.com/community/tutorials/geospatial-data-python
+https://www.datacamp.com/courses/visualizing-geospatial-data-in-python
+
+convert to apiusing flask:
+https://www.datacamp.com/community/tutorials/machine-learning-models-api-python
+
+facial recognition:
+https://www.analyticsvidhya.com/blog/2018/08/a-simple-introduction-to-facial-recognition-with-python-codes/?utm_source=facebook.com
+
+text:
+https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/?utm_source=facebook.com
+
+ML on GITHUB:
+https://www.analyticsvidhya.com/blog/2018/11/best-machine-learning-github-repositories-reddit-threads-october-2018/?utm_source=facebook.com
+
+JSON data:
+https://www.datacamp.com/community/tutorials/json-data-python
+
+monte carlo:
+https://www.datacamp.com/community/tutorials/tutorial-monte-carlo
+
+https://www.analyticsvidhya.com/blog/2018/11/reinforcement-learning-introduction-monte-carlo-learning-openai-gym/?utm_source=facebook.com
+
+tidyverse:
+https://www.datacamp.com/courses/modeling-with-data-in-the-tidyverse
+
+python for data science:
+https://www.datacamp.com/courses/intro-to-python-for-data-science?utm_source=fb_paid&utm_medium=cpc&utm_campaign=fb_ppa
+
+sentiment analysis:
+https://www.analyticsvidhya.com/blog/2018/07/hands-on-sentiment-analysis-dataset-python/?utm_source=facebook.com
+
+https://courses.analyticsvidhya.com/courses/twitter-sentiment-analysis/?utm_source=facebook.com&utm_medium=social
+
+shell commands for data science:
+https://www.datacamp.com/courses/introduction-to-shell-for-data-science
+
+ML box:
+https://www.facebook.com/452065408218678/posts/1992788360813034/
+
+hypothesis testing:
+https://www.analyticsvidhya.com/blog/2015/09/hypothesis-testing-explained/?utm_source=facebook.com&utm_medium=social
+
+fuzzy string logic:
+https://www.datacamp.com/community/tutorials/fuzzy-string-python
+
+outlier detetion:
+https://www.analyticsvidhya.com/blog/2019/02/outlier-detection-python-pyod/?utm_source=facebook.com&utm_medium=social
+
+face detection:
+https://www.analyticsvidhya.com/blog/2018/12/introduction-face-detection-video-deep-learning-python/?utm_source=facebook.com&utm_medium=social
+
+tensorflow - ML model in browser:
+https://www.analyticsvidhya.com/blog/2019/06/build-machine-learning-model-in-your-browser-tensorflow-js-deeplearn-js/?utm_source=facebook.com&utm_medium=social
+ 
+sequence modeling deep learning:
+https://www.analyticsvidhya.com/blog/2019/01/sequence-models-deeplearning/?utm_source=facebook.com&utm_medium=social
+
+understanding:
+https://www.analyticsvidhya.com/blog/2019/08/decoding-black-box-step-by-step-guide-interpretable-machine-learning-models-python/?utm_source=facebook.com&utm_medium=social
 
